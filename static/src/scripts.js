@@ -5,7 +5,7 @@ import { getObjectDict } from './dictionary.js';
 import { getInfoDict } from './infoDict.js';
 
 // put the path and name of room file here
-const path = 'doc/';
+const path = './doc/';
 const file = 'another_room.glb';
 
 var canvas = document.getElementById("renderCanvas");
