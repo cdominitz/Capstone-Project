@@ -3,12 +3,12 @@ In this project, we partnered with Alan Kadish from Pure Living. Pure Living is 
 
 To achieve this goal, our project utilizes cutting-edge object detection technology and 3D imaging software to allow users the ability to assess the contents of their homes. We have given users two ways to interact with this project in hopes that it will encourage more people to use the program and so that more people will be educated on the potential risks in their homes and how to avoid those risks.
 
-Users have two options to use this program. They can either upload an image of their own room to be analyzed or they can view a pre-loaded 3D model.
+Users have two options to use this program. They can either upload an image of their own room to be analyzed or they can view a pre-loaded [3D Model](https://cdominitz.github.io/capstone-project/templates/model).
 
 ### Object Detection
 To accomplish this task, we used a custom trained image detection model that detects eighteen common household items that are toxic to human health.  Once the user uploads their picture, the image is run through the custom trained image detection model and then the program displays the picture with the objects detected and provides the user with a brief description of each object detected and why it may be toxic to their health.  
 
-### [3D Model](https://cdominitz.github.io/Capstone-Project/templates/model)
+### 3D Model
 When a user selects the option to view a 3D model room, they navigate to a page that is preloaded with a model that the user is able to explore. They can zoom in and out as well as change the direction of viewing the room. Anytime the user clicks on an object, they are shown a description about the object that was clicked as well as any relevant links to learn more information. 
 
 ## Installation and Instruction
