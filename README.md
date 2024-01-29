@@ -8,15 +8,15 @@ Users have two options to use this program. They can either upload an image of t
 ### Object Detection
 To accomplish this task, we used a custom trained image detection model that detects eighteen common household items that are toxic to human health.  Once the user uploads their picture, the image is run through the custom trained image detection model and then the program displays the picture with the objects detected and provides the user with a brief description of each object detected and why it may be toxic to their health.  
 
-### 3D Model
+### [3D Model](https://cdominitz.github.io/Capstone-Project/templates/model)
 When a user selects the option to view a 3D model room, they navigate to a page that is preloaded with a model that the user is able to explore. They can zoom in and out as well as change the direction of viewing the room. Anytime the user clicks on an object, they are shown a description about the object that was clicked as well as any relevant links to learn more information. 
 
 ## Installation and Instruction
 1. To clone the Github repository to your local machine, in the terminal navigate to the path of the directory where you want to clone the repo and run the following command in the terminal:
 
-    git clone "https://github.com/wmj2023/cs467.git"
+    git clone "https://github.com/cdominitz/capstone-project.git"
 
-2. From the terminal, navigate to the cs467 directory
+2. From the terminal, navigate to the capstone-project directory
 
 3. To install the libraries and packages needed to run this project, run the following command in the terminal:
 
